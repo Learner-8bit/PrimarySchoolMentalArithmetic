@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="set"></view>
+
+	<view class="task_text">
+		<view class="task_title">选择一个任务</view>
+		<view class="task_desc">在接下来的{{time}}分钟内，你将专注做这件事</view>
+	</view>
+	<view class="start" bindtap="start">一年级</view>
+	<view class="start" bindtap="start">二年级</view>
+	<view class="start" bindtap="start">三年级</view>
+

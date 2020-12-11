@@ -1,0 +1,17 @@
+<!--/pages/calculate/calculate.wxml-->
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="number">{{A}}{{op}}{{B}}={{val}}</view>
+<view class="Btns">
+		<view class="submitBtn" bindtap="submit">提交</view>
+</view>

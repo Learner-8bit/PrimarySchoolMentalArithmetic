@@ -1,0 +1,21 @@
+/**index.wxss**/
+/* page {
+  overflow: hidden;
+  background: #E7624F;
+} */
+.Btns .submitBtn {
+  width: 200rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #000000;
+  border: 3rpx solid #E00000;
+  border-radius: 20rpx;
+  margin: 0 auto 20rpx auto;
+}
+.number {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30rpx;
+  color: #000000;
+}

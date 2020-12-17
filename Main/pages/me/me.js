@@ -51,6 +51,11 @@ Page({
       hasUserInfo: true
     })
   },
+  GoSet:function(){
+    wx.navigateTo({
+      url: '../set/set',
+    })
+  },
 
 
   /**

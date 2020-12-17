@@ -82,3 +82,23 @@
   width:100%;
   color:#333333;
 }
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  color:#000000;
+  margin: 10rpx;
+}
+
+.Btns .submitBtn {
+  width: 740rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  color: #000000;
+  border: 3rpx solid #E00000;
+  border-radius: 20rpx;
+  margin: 0 auto 20rpx auto;
+}

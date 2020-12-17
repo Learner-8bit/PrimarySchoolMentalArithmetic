@@ -5,21 +5,21 @@
 		<view class="sum_item_val">{{item.val}}</view>
 	</view>
 </view>
-
 <view class="detail">
 	<view class="detail_title">
 		<view class="detail_title_text">学习记录</view>
 	</view>
 
-	<view class="detail_list" wx:if="{{list.length > 0}}">
-		<view class="list_item" wx:for="{{list}}" wx:key="key">
-			<view class="list_item_date">{{item.Y + '-' + item.M + '-' +item.D + ' ' + item.h + ":" + item.m + ':' + item.s}}</view>
-			<view class="list_item_cate">{{cateArr[item.cateActive].text}}</view>
-			<view class="list_item_time">{{item.time}}分钟</view>
+<view wx:if="{{logs.length > 0}}" class="log-list">
+  <block wx:for="{{logs}}" wx:key="key" wx:for-item="log">
+		<view wx:if="{{index < maxday}}">
+		<view class="log-item">{{index + 1}}. {{log.date}}</view>
+		<view class="log-item">题数:{{log.numEqu}} 做对题数: {{log.numPro}} 准确率:{{log.accuracy}}%</view>
 		</view>
-	</view>
+  </block>
+</view>
 
-	<view class="detail_list" wx:if="{{list.length == 0}}">
+	<view class="detail_list" wx:if="{{logs.length == 0}}">
 		暂无数据
 	</view>
 

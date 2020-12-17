@@ -5,7 +5,8 @@
     "pages/me/me",
     "pages/guide/guide",
     "pages/author/author",
-    "pages/calculate/calculate"
+    "pages/calculate/calculate",
+    "pages/set/set"
   ],
   "window": {
     "backgroundTextStyle": "light",

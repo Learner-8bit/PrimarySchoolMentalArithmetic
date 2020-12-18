@@ -1,0 +1,4 @@
+<!--pages/guide/guide.wxml-->
+<view class="welcome">
+	<text class="welcome_title">欢迎小学生！</text>
+</view>

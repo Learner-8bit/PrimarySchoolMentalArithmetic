@@ -1,0 +1,54 @@
+<!--/pages/calculate/calculate.wxml-->
+	
+	<form catchsubmit="formSubmit" catchreset="formReset">
+	<view wx:for="{{array_page}}">
+		<view wx:if="{{index<numEqu}}">
+		<view wx:if="{{EquSta===0}}" class="flex-wrp" style="height: 60px;flex-direction:row;justify-content: center;	align-items: center"> 
+			<view class="number">
+				{{index+1}}: {{item.A}}{{item.C}}{{item.B}}=
+			</view>
+			<view class="Input">
+				<input name="input{{index}}" type="number" placeholder="输入答案"/>
+			</view>
+		</view>
+		<view wx:if="{{EquSta===1}}" class="number">
+			<view class="flex-wrp" style="flex-direction:row;justify-content: center;">
+				<view class="number"> {{index+1}}: {{item.A}}{{item.C}}{{item.B}}=</view>
+				<view wx:if="{{item.res==='✔'}}" class="rightAns">{{item.ans}} {{item.res}}</view>
+				<view wx:if="{{item.res==='✘'}}" class="falseAns">{{item.ans}} {{item.res}}</view>
+				<view wx:if="{{item.res==='空'}}" class="emptyAns"> {{item.res}}</view>
+			</view>
+		</view>
+		<view wx:if="{{EquSta===2}}">
+			<view class="flex-wrp" style="flex-direction:row;justify-content: center;">
+				<view class="number"> {{index+1}}: {{item.A}}{{item.C}}{{item.B}}=</view>
+				<view wx:if="{{item.res==='✔'}}" class="rightAns">{{item.ans}} {{item.res}}</view>
+				<view wx:if="{{item.res==='✘'}}" class="falseAns">{{item.ans}} {{item.res}}:{{item.pro}}</view>
+				<view wx:if="{{item.res==='空'}}" class="emptyAns"> {{item.res}}:{{item.pro}}</view>
+			</view>
+		</view>
+	</view>
+	</view>
+	<view class="btn-area" id="buttonContainer">
+		<view class="flex-wrp" style="flex-direction:row;justify-content: center;">
+			<view wx:if="{{EquSta===0}}" class="submitBtn">
+				<button formType="submit">提交</button>
+			</view>
+			<view wx:if="{{EquSta===0}}" class="submitBtn">
+				<button formType="reset">清空</button>
+			</view>
+		</view>
+	</view>
+</form>
+
+<view class="flex-wrp" style="flex-direction:row;justify-content: center;">
+	<view wx:if="{{EquSta===1}}" class="submitBtn">
+		<button bindtap="showAns">查看答案</button>
+	</view>
+	<view class="submitBtn">
+		<button bindtap="newTest">新题目</button>
+	</view>
+	<view class="submitBtn">
+		<button bindtap="backto">返回</button>
+	</view>
+</view>

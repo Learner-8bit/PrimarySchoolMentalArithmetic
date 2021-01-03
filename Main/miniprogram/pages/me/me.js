@@ -11,8 +11,6 @@ Page({
     menuitems: [
       { text: '设置题量', url: '../set/set', icon: '/images/set.png', arrows: '/images/arrows.png' },
       { text: '操作指引', url: '../guide/guide', icon: '/images/guide.png', arrows: '/images/arrows.png' },
-     // { text: '清空记录', url: '#', icon: '/images/user3.png', arrows: '/images/arrows.png' },
-      //{ text: '关于作者', url: '../author/author', icon: '/images/user4.png', arrows: '/images/arrows.png' }
     ]
   },
   onLoad: function () {

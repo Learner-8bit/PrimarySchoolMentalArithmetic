@@ -13,7 +13,7 @@
 
 ### 小程序二维码
 
-- ![avatar](https://github.com/Learner-8bit/PrimarySchoolMentalArithmetic/blob/master/QRcode.jpg)
+- ![QRcode](https://github.com/Learner-8bit/PrimarySchoolMentalArithmetic/blob/master/QRcode.jpg)
 
 ### 作者
 

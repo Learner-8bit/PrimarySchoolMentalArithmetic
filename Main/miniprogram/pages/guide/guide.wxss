@@ -1,6 +1,6 @@
 /* pages/guide/guide.wxss */
 .welcome {
-  background-color: #12a5fa;
+  background-color: #10a1f5;
   width: 100%;
   height: 200rpx;
 }
@@ -42,7 +42,7 @@
 .introduce .introduce_nav {
   font-size: 40rpx;
   margin-bottom: 20rpx;
-  color: #12a5fa;
+  color: #11a2f7;
 }
 
 .introduce .introduce_fun {

@@ -27,7 +27,7 @@ Page({
         small: '/images/prompt.png',
         fun: '设置：该部分可设置每次出题的题量，可以清空所有学习记录，清空之后不可恢复，请谨慎操作！',
         small: '/images/prompt.png',
-        fun1: '联系客服：有不懂得地方可或有意见可直接联系我们。',
+        fun1: '联系客服：有不懂得地方可或有意见可直接联系我们！',
         pic: '/images/3.png'
       },
       {

@@ -48,5 +48,5 @@
   font-size: 20px;
   text-align: center;
   margin-top: 20rpx;
-  color: #ffa600;
+  color :#ffa600 ;
 }

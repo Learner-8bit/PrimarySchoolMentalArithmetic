@@ -21,19 +21,19 @@ Page({
   getUserInfo: function (e) {
 
   },
-  grade1: function () {
+  grade1: function () {//一年级
     app.globalData.state=1;
     wx.navigateTo({
       url: '../calculate/calculate',
     })
 },
-  grade2: function () {
+  grade2: function () {//二年级
     app.globalData.state=2;
     wx.navigateTo({
         url: '../calculate/calculate',
     })
   },
-  grade3: function () {
+  grade3: function () {//三年级
     app.globalData.state=3;
     wx.navigateTo({
       url: '../calculate/calculate',

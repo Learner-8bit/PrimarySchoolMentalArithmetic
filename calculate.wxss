@@ -1,0 +1,52 @@
+/**index.wxss**/
+/* page {
+  overflow: hidden;
+  background: #E7624F;
+} */
+
+.submitBtn {
+  width: 230rpx;
+  height: 106rpx;
+  line-height: 150rpx;
+  text-align: center;
+  color: #6f96d1;
+  border: 3rpx solid #12a5fa;
+  border-radius: 15rpx;
+  margin: 0 auto 60rpx auto;
+}
+
+.number {
+  font-size: 21px;
+  text-align: left;
+  margin-top: 20rpx;
+  color: #000000;
+}
+.rightAns {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20rpx;
+  color: #09e409fa;
+}
+.falseAns {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20rpx;
+  color: #ff0000;
+}
+.Input{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20rpx;
+  background-color: #f0ececef;
+}
+.flex-wrp{
+  height: 60px;
+  display:flex;
+  background-color: #fcf6f6;
+}
+.emptyAns {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20rpx;
+  color: #ffa600;
+}
